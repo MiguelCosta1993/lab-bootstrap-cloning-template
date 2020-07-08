@@ -1,0 +1,13 @@
+.listas ul {
+  list-style: none;
+}
+
+.listas li::before {
+  content: '– ';
+  color: rgb(14, 102, 185);
+  list-style-position: outside;
+}
+
+.listasm li {
+  list-style-image: url('https://i.imgur.com/GSZfVM6.png');
+}
